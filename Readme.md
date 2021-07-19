@@ -32,5 +32,5 @@
 ```
 
 
-## API - View Post, Create Post, Update Post, and delete Post Operation
+## API - View Post, Create Post, Update Post, and Delete Post Operation
 [Click here](https://www.getpostman.com/collections/7b98ff8e8d0693ea5002) to view & download API Collection
