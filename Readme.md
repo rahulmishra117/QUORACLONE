@@ -8,8 +8,16 @@
 ## FOR SIGNUP DATA
 
 ### user -->
-## email: rahu@12.com
-## password: 1234
+### For SignUp
+## localhost:9000/api/v1/user/createUser
+
+
+## For Login
+
+## API 
+## localhost:9000/api/v1/user/log
+ email: rahu@12.com
+ password: 1234
 
 
 ```json
