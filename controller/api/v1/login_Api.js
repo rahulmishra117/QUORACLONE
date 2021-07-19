@@ -25,7 +25,7 @@ module.exports.create = async(req,res)  => {
         return res.status(500).json({
             message:'Internal Server Error',
             success:false,
-            error:err
+            error:err.message
         })
     }
 }
@@ -36,6 +36,7 @@ module.exports.login = async (req,res )=>{
     try{
         const {email,password}=req.body;
         const user=await User.findOne({email:email});
+        //console.log(user);
         if(user){
             const isValidPassword = await user.isValidPassword(user,password);
             if(isValidPassword)
